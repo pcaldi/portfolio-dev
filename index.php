@@ -25,7 +25,7 @@
     </main>
 
     <div class="mx-auto w-full bg-[url('/img/background_footer.png')] bg-center bg-cover">
-        <footer class="px-32 py-40 flex items-center justify-center flex-col">
+        <footer class="">
         <?php include('./components/footer.php'); ?>
         </footer>
     </div>
