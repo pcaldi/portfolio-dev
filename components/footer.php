@@ -7,7 +7,7 @@ $itens = [
 ]
 ?>
 
-<div class="flex flex-col w-2/5 p-4">
+<div class="flex flex-col w-2/5 p-4 mx-auto max-w-screen-lg mt-12">
 
     <div>
         <span class="font-Inconsolata font-normal flex items-center  justify-center text-sm text-[#BB72E9]">Contato</span>
@@ -15,10 +15,10 @@ $itens = [
         <span class="font-Maven-pro text-sm text-[#878EA1] flex items-center justify-center">Entre em contato ou acompanhe minhas redes socias!</span>
     </div>
 
-    <div class="flex flex-col mx-auto p-3 rounded-md  w-2/5 mt-12">
+    <div class="flex flex-col mx-auto p-3 rounded-md w-4/5 mt-8">
         <?php foreach ($itens as $item): ?>
             <ul class="p-2 gap-2">
-                <li class="gap-2 bg-[#292C34] p-2 rounded-md">
+                <li class="gap-2 bg-[#292C34] p-2 rounded-md hover:border border-gray-100/50">
                     <a href="<?= $item['href'] ?>" target="_blank">
                         <div class="flex items-center justify-between gap-20">
                             <div class="flex items-center gap-2">

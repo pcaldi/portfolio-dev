@@ -47,7 +47,7 @@ $projetos = [
 ?>
 <?php foreach ($projetos as $projeto): ?>
     <div class="flex flex-wrap w-2/5 p-4 ">
-        <div class="flex p-2 rounded-md gap-2 bg-[#292C34]  ">
+        <div class="flex p-2 rounded-md gap-2 bg-[#292C34] hover:border border-gray-100/50">
 
             <div class="">
                 <a href="<?= $projeto['href'] ?>" target="_blank">
